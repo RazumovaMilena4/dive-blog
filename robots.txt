@@ -1,4 +1,20 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ваш-логин.github.io/dive-blog/sitemap.xml
+#Служебные и второстепенные страницы
+Disallow: /dive-blog/about/team.html
+Disallow: /dive-blog/contacts/
+Disallow: /dive-blog/blog/news.html
+Disallow: /dive-blog/blog/dive-sites-blog.html
+Disallow: /dive-blog/courses/for-beginners.html
+Disallow: /dive-blog/courses/for-amateurs.html
+Disallow: /dive-blog/courses/for-pros.html
+
+#Главные разделы и статьи
+Allow: /dive-blog/index.html
+Allow: /dive-blog/blog/
+Allow: /dive-blog/dive-sites/
+Allow: /dive-blog/gear/
+Allow: /dive-blog/courses/
+
+Sitemap: https://razumovamilena4.github.io/dive-blog/sitemap.xml
