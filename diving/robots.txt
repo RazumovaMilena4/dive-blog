@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ваш-логин.github.io/dive-blog/sitemap.xml
